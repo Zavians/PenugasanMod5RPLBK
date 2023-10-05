@@ -1,0 +1,28 @@
+/* PokemonList.css */
+.pokemon-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .pokemon-card {
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    background-color: #00FF00; /* Mengganti warna latar belakang menjadi hijau (#00FF00) */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pokemon-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 8px 0;
+    color: #FFFFFF; /* Mengganti warna teks menjadi putih (#FFFFFF) untuk kontras */
+  }
+  
